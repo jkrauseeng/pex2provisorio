@@ -1,0 +1,29 @@
+.header {
+  background-color: var(--accent-color);
+  color: var(--contrast-color);
+  padding: 15px 0;
+  transition: all 0.5s;
+  z-index: 997;
+}
+
+.header .logo h1 {
+  font-size: 30px;
+  margin: 0;
+  font-weight: 700;
+}
+
+.header .header-social-links a {
+  color: color-mix(in srgb, var(--contrast-color), transparent 40%);
+  transition: 0.3s;
+}
+
+.header .header-social-links a:hover {
+  color: var(--accent-color);
+}
+.header .logo img {
+  max-height: 30px; 
+  width: auto;
+}
+.header {
+  position: relative; /* Permite que o header role junto com a página */
+}

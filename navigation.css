@@ -1,0 +1,43 @@
+.navmenu ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    flex-direction: row;
+}
+
+.navmenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 15px 0;
+    flex-wrap: wrap;
+}
+
+.navmenu a {
+    color: var(--nav-color);
+    font-size: 16px;
+    font-family: var(--nav-font);
+    padding: 18px 15px;
+}
+
+.navmenu .dropdown ul {
+    background: var(--nav-dropdown-background-color);
+    position: absolute;
+    visibility: hidden;
+    transition: 0.3s;
+    left: 0;
+    top: 100%;
+    min-width: 200px;
+}
+
+.navmenu .dropdown:hover>ul {
+    visibility: visible;
+    opacity: 1;
+}
+
+.navmenu li {
+    padding: 0 10px;
+    /* Espaço entre itens */
+}

@@ -1,0 +1,20 @@
+.contact .info-item i {
+  font-size: 36px;
+  color: var(--accent-color);
+}
+
+.contact .php-email-form input[type=text],
+.contact .php-email-form input[type=email],
+.contact .php-email-form textarea {
+  font-size: 14px;
+  padding: 10px;
+  border-radius: 0;
+  color: var(--default-color);
+}
+
+.contact .php-email-form button[type=submit] {
+  background: var(--accent-color);
+  color: var(--contrast-color);
+  padding: 10px 30px;
+  border-radius: 4px;
+}
